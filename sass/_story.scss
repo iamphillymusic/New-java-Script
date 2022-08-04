@@ -1,0 +1,163 @@
+.stories{
+    grid-column: 2/span4;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    @media only screen and  (max-width: $bp-medium) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+}
+
+.story{
+
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    gap: 1rem;
+    margin-left: 1rem;
+
+
+    @media only screen and  (max-width: $bp-medium) {
+        padding-right: 7rem;
+
+        
+
+    }
+
+
+
+
+
+
+}
+.story_text{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-content: center;
+    justify-content: center;
+    max-width: 80vw;
+    margin-left: 1rem;
+
+    @media only screen and  (max-width: $bp-medium) {
+        height: 5rem
+        
+
+    }
+
+
+    
+}
+
+.story_text h3{
+    font-size: 2rem;
+    @media only screen and  (max-width: $bp-medium) {
+      
+      width: max-content;
+        
+
+    }
+}
+.story_text p {
+    font-weight: 700;
+    color:rgb(119, 114, 114);
+    @media only screen and  (max-width: $bp-medium) {
+      
+        
+        text-align: center;
+        width: 30rem;
+        margin: 0 auto;
+    }
+}
+
+.burnaimg {
+    grid-column: 1/3;
+
+}
+
+.story img {
+    width: 100%;
+    height: 7rem;
+    border-radius: 20px;
+
+    @media only screen and  (max-width: $bp-medium) {
+       display: grid;
+       align-items: center;
+        width: 15rem;
+        height: 9rem;
+        
+
+    }
+  
+}
+
+
+.business{
+    grid-column: 2/span4;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+    margin-bottom: 1rem;
+    background-color: rgb(243, 238, 238);   
+
+    @media only screen and  (max-width: $bp-medium) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    
+}
+
+.let {
+    margin: 1rem;
+    font-weight: 700;
+
+    @media only screen and  (max-width: $bp-medium) {
+      
+        
+        text-align: center;
+        width: 30rem;
+        margin: 0 auto;
+    }
+
+
+}
+.let p {
+    color:rgb(119, 114, 114);
+    @media only screen and  (max-width: $bp-medium) {
+      
+        
+        text-align: center;
+        width: 30rem;
+        margin: 0 auto;
+    }
+
+}
+
+.talk {
+    grid-column: 2/3;
+    font-weight: 700;
+    @media only screen and  (max-width: $bp-medium) {
+      
+        
+        text-align: center;
+        width: 30rem;
+        margin: 0 auto;
+    }
+
+}
+.talk p{
+    color:rgb(119, 114, 114);
+    @media only screen and  (max-width: $bp-medium) {
+      
+        
+        text-align: center;
+        width: 30rem;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,31 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-suitcase {
+  width: 20rem;
+  height: 20rem;
+  background-position: 0 0;
+}
+.icon-suitcase1 {
+  width: 32px;
+  height: 32px;
+  background-position: -108px 0;
+}
+.icon-wallet {
+  width: 32px;
+  height: 32px;
+  background-position: -216px 0;
+}
+.icon-cloud {
+  width: 35px;
+  height: 32px;
+  background-position: -324px 0;
+}
+.icon-googleplay {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -108px;
+}
+

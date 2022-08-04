@@ -1,0 +1,90 @@
+$bp-smallest: 30em; // 450px
+
+$bp-medium1: 31em; // 510px
+$bp-medium: 32.2em; // 500px
+
+
+
+$bp-large:46.8em; //750px
+$bp-largest3: 50.1em; //802px
+
+$bp-largest: 54em; //861px
+$bp-largest1: 61.25em; //950px
+
+$bp-exlargest: 67.8em; //1085px
+$bp-exlargest2: 71.8em; //1150px
+
+
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+
+
+    @media only screen and  (max-width: $bp-exlargest2) {
+        font-size: 90%;
+   
+       }
+
+
+    @media only screen and  (max-width: $bp-exlargest) {
+     font-size: 85%;
+
+    }
+
+       @media only screen and  (max-width: $bp-largest1) {
+        font-size: 75%;
+   
+       }
+    @media only screen and  (max-width: $bp-largest) {
+        font-size: 68%;
+   
+       }
+       @media only screen and  (max-width: $bp-largest3) {
+        font-size: 62%;
+   
+       }
+    
+    @media only screen and  (max-width: $bp-large) {
+    font-size: 60%;
+
+
+    }   
+    
+    @media only screen and  (max-width: $bp-medium) {
+    font-size: 58%
+    }
+    
+    @media only screen and  (max-width: $bp-medium1) {
+        font-size: 35%
+    }
+    
+
+    @media only screen and  (max-width: $bp-smallest) {
+        font-size: 40%
+    }
+    position: relative;
+
+   
+       
+    
+    }
+
+
+    .container{
+        height: 100vh;
+        width: 100vw;
+        margin: 0 auto;
+        display: grid;  
+        grid-template-columns: [side-start] 15vw [side-end col-start] repeat(5, 10vw)  [col-end] 15vw [full-end];
+        grid-template-rows: repeat(7, min-content) ;
+    }
+    

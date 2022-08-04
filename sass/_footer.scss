@@ -1,0 +1,49 @@
+.footer{
+    display: grid;
+    grid-column:  2/span4;
+    grid-template-rows: repeat(2, 1fr );
+
+}
+
+.footer .foot {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    background-color: rgb(48, 48, 51);
+    justify-content: center;
+    color:rgb(150, 145, 145);
+    gap: 6rem;
+    padding: 2rem;
+}
+
+.foot_social {
+    background-color: rgb(124, 118, 118);
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-template-rows: repeat(2, mincontent);
+    align-items: center;
+    justify-content: center;
+    justify-items : center;
+}
+
+.foot_social svg a {
+
+    width: 1.5rem;
+    height: 1.5rem;
+    fill:rgb(188, 178, 178);
+    display: grid;
+
+
+}
+.foot_social svg a:hover{
+    transform: translatey(-.1rem);
+    fill: rgb(100, 35, 100);
+ }
+
+.foot_social p {
+    font-weight: 900;
+    font-size: 1rem;
+    color: rgb(201, 193, 193);
+    display: grid;
+    justify-content: center;
+    grid-column: 1/3;
+}

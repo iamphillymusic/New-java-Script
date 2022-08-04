@@ -1,0 +1,51 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-lock-stripes {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-lock-stripes1 {
+  width: 32px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.icon-box {
+  width: 20px;
+  height: 20px;
+  background-position: 0 -48px;
+}
+.icon-briefcase {
+  width: 20px;
+  height: 20px;
+  background-position: -36px -48px;
+}
+.icon-print {
+  width: 20px;
+  height: 20px;
+  background-position: -72px -48px;
+}
+.icon-signal {
+  width: 20px;
+  height: 20px;
+  background-position: -108px -48px;
+}
+.icon-suitcase {
+  width: 20px;
+  height: 20px;
+  background-position: -144px -48px;
+}
+.icon-soundcloud {
+  width: 20px;
+  height: 20px;
+  background-position: -180px -48px;
+}
+.icon-googleplay {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -84px;
+}
+

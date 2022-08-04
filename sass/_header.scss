@@ -1,0 +1,86 @@
+h1{
+    font-size: 1.2rem;
+    margin-bottom: -.8rem;
+    margin-left: .3rem;
+    display: grid;
+    align-items: center;
+}
+
+
+
+
+/*HEADING*/
+
+
+.header {
+    background-image:  linear-gradient(rgba(121, 105, 105, 0.639), rgba(126, 117, 117, 0.52)), url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(240, 241, 236);
+    grid-column: 2/span4;
+    height: 70vh;
+
+    display: grid;
+    grid-template-rows: repeat(4, min-content); 
+    grid-template-columns: repeat(3, 5vw);
+
+    margin-bottom: 1rem;
+
+    color: rgb(207, 197, 197);
+ 
+    position: relative;
+
+    @media only screen and  (max-width: $bp-large) { 
+        height: 40vh;
+    }
+    @media only screen and  (max-width: $bp-medium) { 
+        height: 30vh;
+    }
+}
+
+.heading_p {
+    position: absolute;
+    top: 2.5rem;
+    left: 5rem;
+    height: 40vh;
+    max-height: min-content;
+    max-width: 1fr;
+}
+
+.heading__span{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+svg{
+    height: 2rem;
+    width:2rem;   
+}
+.svg a {
+    fill: rgb(209, 205, 205);
+    transition: transform .2s;
+
+}
+.svg a:hover {
+    transform: translatey(-.1rem);
+    box-shadow: 0 3px 3px rgba(84, 72, 72, .3);
+    background-color: rgb(162, 172, 170);
+    color: rgb(212, 198, 198);
+    fill: rgb(100, 35, 100);
+}
+
+.svg a:active {
+    transform: translatey(-.1rem);
+    box-shadow: 0 1px 2px rgba(84, 72, 72, .3);
+} 
+.svg {
+    display: flex;
+    gap: 3rem;
+  
+}
